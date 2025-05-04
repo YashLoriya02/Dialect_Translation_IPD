@@ -1,0 +1,22 @@
+intent_map = {
+    "greeting": "Hey! How are you doing?",
+    "ask_feeling": "How are you feeling today?",
+    "end_convo": "Talk to you soon. Take care!",
+    "motivate": "You've got this! Keep going.",
+    "ask_location": "Where are you going?",
+    "offer_help": "Can I help you with something?",
+    "check_health": "Hope you're doing okay today.",
+    "thank_you": "Thank you so much for sharing.",
+    "affirmation": "That's great to hear!",
+    "validation": "It's completely okay to feel that way.",
+    "apology": "I'm really sorry to hear that.",
+    "joke": "Haha! That was a good one!",
+    "weather": "The weather' been really strange lately, right?",
+    "compliment": "That's really impressive!",
+    "introduction": "Hi, I'm Healo! I'm here to talk whenever you need.",
+    "curiosity": "That's interesting! Tell me more?",
+    "follow_up": "And then what happened?",
+    "consoling": "It must be hard. I'm here for you.",
+    "gratitude_accept": "You're most welcome!",
+    "fun_invite": "Wanna do something fun together?"
+}

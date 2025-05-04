@@ -1,0 +1,13 @@
+flask
+flask-cors
+pymongo
+bcrypt
+python-dotenv
+requests
+sentence-transformers
+faiss-cpu
+pandas
+joblib
+google-api-python-client
+google-generativeai
+pyjwt
