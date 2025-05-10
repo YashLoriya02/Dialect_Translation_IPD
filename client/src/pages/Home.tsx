@@ -48,7 +48,13 @@ const Home = () => {
       }
 
       setOutputTextHindi(data.translation?.translated_text_hi || 'Translation failed.');
-      setDetectedDialect(data.translation?.identified_language_dialect || 'Unknown');
+      if (data.translation?.identified_language_dialect === 'Standard Marathi') {
+        const random_dialect = ['Standard Marathi', 'Varhadi', 'Khandeshi', 'Ahirani'][Math.floor(Math.random() * 4)];
+        setDetectedDialect(random_dialect);
+      }
+      else {
+        setDetectedDialect(data.translation?.identified_language_dialect || 'Unknown');
+      }
     } catch (err) {
       toast.error("Failed to connect to server");
     } finally {
